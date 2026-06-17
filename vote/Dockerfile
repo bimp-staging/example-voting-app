@@ -1,5 +1,5 @@
 # base defines a base stage that uses the official python runtime base image
-FROM python:3.11-slim AS base
+FROM dhi.io/python:3.14-debian13-sfw-ent-dev AS base
 
 # Add curl for healthcheck
 RUN apt-get update && \
