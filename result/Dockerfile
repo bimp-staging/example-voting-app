@@ -1,4 +1,4 @@
-FROM node:18-slim
+FROM docker.io/library/node:20-latest
 
 # add curl for healthcheck
 RUN apt-get update && \
