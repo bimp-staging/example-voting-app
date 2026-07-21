@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM docker.io/library/python:3.14.6-slim-trixie
 
 # add apache bench (ab) tool
 RUN apt-get update \
