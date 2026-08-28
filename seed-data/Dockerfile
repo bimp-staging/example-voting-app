@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM dhi.io/python:3.14-debian13-sfw-ent-dev
 
 # add apache bench (ab) tool
 RUN apt-get update \
